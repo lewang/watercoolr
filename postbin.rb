@@ -1,6 +1,7 @@
 require 'rubygems'
 require 'rest_client'
 require 'json'
+require 'ruby-debug'
 
 puts "creating channel..."
 resp = RestClient.post 'http://localhost:4567/channels', :data => ''

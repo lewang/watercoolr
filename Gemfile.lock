@@ -1,6 +1,14 @@
 GEM
   remote: http://rubygems.org/
   specs:
+    columnize (0.3.6)
+    debugger (1.2.2)
+      columnize (>= 0.3.1)
+      debugger-linecache (~> 1.1.1)
+      debugger-ruby_core_source (~> 1.1.5)
+    debugger-linecache (1.1.2)
+      debugger-ruby_core_source (>= 1.1.1)
+    debugger-ruby_core_source (1.1.5)
     httpclient (2.3.0.1)
     mime-types (1.19)
     rack (1.4.1)
@@ -20,6 +28,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  debugger
   httpclient
   rest-client
   sequel

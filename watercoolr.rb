@@ -4,6 +4,7 @@ require 'sequel'
 require 'httpclient'
 require 'zlib'
 require 'json'
+require 'ruby-debug'
 
 configure do
   DB = Sequel.connect(ENV['DATABASE_URL'] || 'sqlite://watercoolr.db')
